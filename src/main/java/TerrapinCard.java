@@ -4,7 +4,7 @@ public class TerrapinCard {
       balance = balanceAtStart;
     }
     public String toString(){
-      return "This card has " + balance + " dollars";
+      return "The card has " + balance + " dollars";
     }
     public void payEconomical(){
       if(balance > 2.5){
