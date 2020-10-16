@@ -1,6 +1,5 @@
 public class CardRunner {
     public static void main(String args[]){
-        // ☕
         TerrapinCard cardBilly = new TerrapinCard(20);
         TerrapinCard cardBrian = new TerrapinCard(30);
         cardBilly.payGourmet();
