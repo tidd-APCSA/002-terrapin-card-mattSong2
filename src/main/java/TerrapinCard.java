@@ -7,13 +7,13 @@ public class TerrapinCard {
       return "The card has " + balance + " dollars";
     }
     public void payEconomical(){
-      if(balance > 2.5){
-        balance -= 2.5;
+      if(balance > 2.50){
+        balance -= 2.50;
       }
     }
     public void payGourmet(){
-      if(balance > 4){
-        balance -= 4;
+      if(balance > 4.00){
+        balance -= 4.00;
       }
     }
     public void loadMoney(double amount){
@@ -21,8 +21,8 @@ public class TerrapinCard {
         amount  = 0;
         balance += amount;
       }
-      if(amount > 150){
-        balance += 150;
+      if(amount > 150.0){
+        balance += 150.0;
       } else {
         balance += amount;
       }
